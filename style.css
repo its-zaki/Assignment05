@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    background-color: #063a66;
+    color: aliceblue;
+    border-radius: 50px;
+}
+.para{
+    text-align: center  ;
+}
+h3{
+    text-align: center;
+}
+.content{
+    margin: 1px ;
+
+}
+.forward-btn{
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+form{
+    margin-top: 20px;
+}
+.container{
+    padding-right: 30px;
+}
+fieldset{
+    width: 600px;
+    height: 350px;
+    margin: 180px;
+    margin-top: 100px;
+    
+    background-color: rgb(206, 201, 201);
+}
+.long-width{
+    width: 500px;
+}
+form{
+    margin-top: 55px;
+}

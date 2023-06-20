@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Your Review </h1>
+    <fieldset style="height: 550px;">
+        <legend> <b> Your Review</b></legend>
+        <form action="action.php">
+        <div> 
+        <label for="about-us">
+           <b> How Did You Hear About Us: </b> 
+            <select name="about-us" id="about-us">
+                <option value="select-your-option">Select Your Option</option>
+                <option value="facebook">Facebook</option>
+                <option value="youtube">Youtube</option>
+                <option value="google">Google</option>
+            </select>
+        </label>
+    </div><br><br>
+    <div>   
+        <p><b>Would You Visit Again?</b></p> 
+    <label for="yes">
+           <b> Yes:</b>
+            <input type="radio" name="visit" id="yes">
+        </label> 
+        <label for="no">
+           <b> No:</b>
+            <input type="radio" name="visit" id="no">
+        </label>
+        <label for="maybe">
+           <b> Maybe:</b>
+            <input type="radio" name="visit" id="maybe">
+        </label>
+    </div><br><br>
+    <div>    
+    <label for="comment">
+           <b> Comment </b> <br>
+            <textarea name="comment" id="comment" cols="35" rows="4" placeholder="Enter Your Comment Here..."></textarea>
+        </label></div>
+    </div><br><br>
+    <div>    
+    <label for="document">
+       <b> Document:</b> <br>
+       <input type="file" name="document" id="document">
+    </label>
+    </div><br><br>
+    <div>
+        <label for="checkbox">
+            <input type="checkbox" name="checkbox" id="checkbox">
+           <b> Sign me up for email updates </b>
+        </label>
+    </div>
+        <a href="step-2.html"><img style="margin-top: 50px;" src="./assets/back.png" alt="back " width="100px" ></a>
+        <a href="#"><img style="margin-top: 50px;" src="./assets/submit.png" alt="back " width="100px" ></a>
+    </form>
+
+    </fieldset>
+</body>
+</html>
