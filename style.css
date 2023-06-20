@@ -6,6 +6,7 @@ h1{
     background-color: #063a66;
     color: aliceblue;
     border-radius: 50px;
+    width: 100%;
 }
 .para{
     text-align: center  ;
@@ -31,7 +32,7 @@ form{
 fieldset{
     width: 600px;
     height: 350px;
-    margin: 180px;
+    margin: 0 auto;
     margin-top: 100px;
     
     background-color: rgb(206, 201, 201);
